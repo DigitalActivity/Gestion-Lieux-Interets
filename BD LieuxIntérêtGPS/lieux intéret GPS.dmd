@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="lieux intéret GPS" id="EB25F09E-EFED-5100-8D31-22D8DDF398A0" version="3.5">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-06 13:58:18 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>calendrier de pompiers</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EB25F09E-EFED-5100-8D31-22D8DDF398A0</designId>
+</OSDM_Design>

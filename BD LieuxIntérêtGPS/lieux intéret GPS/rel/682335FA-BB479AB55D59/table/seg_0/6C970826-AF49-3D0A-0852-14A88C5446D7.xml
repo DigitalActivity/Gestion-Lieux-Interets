@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C970826-AF49-3D0A-0852-14A88C5446D7" name="Force_frappe">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>E1E819E8-ACB6-8AC6-3F8D-DA202B46C98C</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="latitude_fiche" id="EE802CAC-469C-2CE7-FCE6-6CA01EC858F0">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>9DA2AD45-CD6C-A1C3-B044-55C8378D5CC9</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<delegate>65910EAC-8A16-7B79-76CD-036BDB838BA8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91157FB1-164C-763E-3E41-FC8B37672E7F" referredColumn="65910EAC-8A16-7B79-76CD-036BDB838BA8"/>
+</associations>
+</Column>
+<Column name="longitude_fiche" id="54D36987-BA15-31E0-DB4B-268BF1F2A1E2">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>71CC94C8-A21B-AC7E-933D-E89327041DCB</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<delegate>B04CB569-73EE-3A2D-3C69-6D0C821B03EF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91157FB1-164C-763E-3E41-FC8B37672E7F" referredColumn="B04CB569-73EE-3A2D-3C69-6D0C821B03EF"/>
+</associations>
+</Column>
+<Column name="nb_citernes" id="8CC1E714-84C7-8DA8-51DB-5544EA5DD238">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>E469F6A8-92C6-2949-1D61-F62B832925DF</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nb_échelles" id="2F7CB5C1-C2A8-0C03-AA79-5A9C049347A9">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>F9E9E78D-0D26-29DC-8B7D-F4B61E538C79</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nb_unités interv matière dangereuse" id="6747C15C-11E5-A9F5-A4CC-8A96FA06DC7A">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>9F490D43-5D06-842D-F7A8-0506D402B775</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nb_unités de secours" id="440CC71E-0ADB-CC1F-9600-65873C6B6D5D">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>1D2D2D17-183B-F143-A0FE-C7A579EF3C45</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nb_véhicules officier" id="4C9E45F9-1C7D-976D-D001-B9A680C00AD6">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>54261E29-5DC8-C6E7-9200-5495D8660FCB</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6E17CD1-6825-5C97-E083-8203CC3213C1" name="Force_frappe_PK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>E1F4B47A-0198-9688-5B5A-CB2847CD771E</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE802CAC-469C-2CE7-FCE6-6CA01EC858F0"/>
+<colUsage columnID="54D36987-BA15-31E0-DB4B-268BF1F2A1E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8624CF16-321B-98FD-D1B4-C4D862B79355" name="Force_frappe_Fiche_renseignement_FK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>FC557F16-B931-4269-9AD6-CC5B3AEAFD0E</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE802CAC-469C-2CE7-FCE6-6CA01EC858F0"/>
+<colUsage columnID="54D36987-BA15-31E0-DB4B-268BF1F2A1E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17D90909-9468-ADB4-8B97-A8B9F9AE0D2F" name="Marqueur_Fiche_renseignement_FK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>30E1849F-E296-513B-E1CB-7CF071B90FD0</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<containerWithKeyObject>23D054D6-F02A-1FE4-BD89-D3C7B50B392F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>22EBE600-6D9B-1A94-7CD7-9BEAA95DAC36</localFKIndex>
+<keyObject>8DCFD67E-E575-6E60-69FC-4893FAEE3977</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

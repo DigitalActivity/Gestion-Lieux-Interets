@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LieuxInteretGPS</string>
+    <string name="google_maps_api_key">AIzaSyCtYlt6nXASlRyvEO35MvjA8l7cB7pPnUI</string>
+    <string name="borne_fontaine">Borne Fontaine</string>
+    <string name="porte_de_sortie">Porte de sortie</string>
+    <string name="camion_de_secours">Camion de secours</string>
+    <string name="sortie_de_la_modification_de_fiche">Sortie de la modification de fiche</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="matiere_dangereuse">Matières dangereuse</string>
+    <string name="mobilite_reduite">Mobilité réduite</string>
+    <string name="nom_vide_erreur_modif">Modification non sauvegarder, le nom ne doit pas être vide.</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="modification_fiche_title">Modification de fiche</string>
+    <string name="nom_lieu">Nom du lieu:</string>
+    <string name="nom">Nom:</string>
+    <string name="etages"> étages</string>
+    <string name="confirmation_suppression_lieux">Êtes-vous sur de vouloir supprimer le lieux?</string>
+    <string name="nom_lieu_hint">Nom du lieu</string>
+    <string name="nombre_etages">Nombre d\'étages:</string>
+    <string name="nombre_etages_hint">Nombre d\'étages</string>
+    <string name="format_error_etages">Le nombre n\'est pas valide.</string>
+    <string name="nb_etages_error">Le nombre d\'étages doit être inférieur à</string>
+    <string name="nb_etages_error_second"> et supérieur à 0.</string>
+    <string name="confirmation_supprimer_marqueur">Voulez-vous vraiment supprimer le marqueur?</string>
+    <string name="autorisation_localisation">Veuillez autoriser la localisation.</string>
+    <string name="unit_hazardous">UNITÉ HAZARDOUS</string>
+    <string name="vehicule_officier">VEHICULE OFFICIER</string>
+    <string name="citernes">CITERNES</string>
+    <string name="unit_secours">UNITÉ SECOURS</string>
+    <string name="echelles">ECHELLES</string>
+    <string name="autopompes">AUTOPOMPES</string>
+    <string name="forcefrappebutton">forcefrappe_button</string>
+</resources>

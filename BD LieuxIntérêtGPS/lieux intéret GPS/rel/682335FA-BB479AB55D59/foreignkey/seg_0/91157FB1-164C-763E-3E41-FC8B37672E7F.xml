@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91157FB1-164C-763E-3E41-FC8B37672E7F" name="Force_frappe_Fiche_renseignement_FK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>FC557F16-B931-4269-9AD6-CC5B3AEAFD0E</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<containerWithKeyObject>6C970826-AF49-3D0A-0852-14A88C5446D7</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>8624CF16-321B-98FD-D1B4-C4D862B79355</localFKIndex>
+<keyObject>8DCFD67E-E575-6E60-69FC-4893FAEE3977</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

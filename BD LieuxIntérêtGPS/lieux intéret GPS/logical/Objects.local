@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6B055BAB-185C-6BFF-9506-4E6FF92DD677" name="Fiche renseignement" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E1E819E8-ACB6-8AC6-3F8D-DA202B46C98C" name="Force frappe" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6ACE615E-C696-7D9C-F829-F18F1DD5D601" name="Marqueur" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FC557F16-B931-4269-9AD6-CC5B3AEAFD0E" name="Fiche renseignement_Force frappe" seqName="seg_0"/>
+   <object objectType="Relation" objectID="30E1849F-E296-513B-E1CB-7CF071B90FD0" name="Fiche renseignement_marqueur" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

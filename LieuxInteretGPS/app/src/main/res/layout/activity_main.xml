@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tp2.lieuxinteretgps.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:baselineAligned="false">
+
+        <fragment
+            android:id="@+id/list_fragment"
+            android:name="tp2.lieuxinteretgps.ListeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            tools:layout="@layout/liste_fragment" />
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            tools:layout="@layout/activity_main">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp">
+
+                    <ImageButton
+                        android:id="@+id/button_quit"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:contentDescription="@string/sortie_de_la_modification_de_fiche"
+                        android:src="@mipmap/ic_action_cross_remove_sign"
+                        android:visibility="invisible"/>
+                    <ImageButton
+                        android:id="@+id/button_forcefrappe"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:contentDescription="@string/forcefrappebutton"
+                        android:src="@mipmap/forcefrappeicon"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="8dp">
+
+                    <ImageButton
+                        android:id="@+id/button_camion"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/camion_de_secours"
+                        android:src="@mipmap/ic_action_fire_truck"
+                        android:visibility="invisible"/>
+
+                    <ImageButton
+                        android:id="@+id/button_sortie"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/porte_de_sortie"
+                        android:src="@mipmap/ic_action_emergency_exit"
+                        android:visibility="invisible"/>
+
+                    <ImageButton
+                        android:id="@+id/button_borne"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/borne_fontaine"
+                        android:src="@mipmap/ic_action_fire_hydrant"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+            </LinearLayout>
+        </fragment>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

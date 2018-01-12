@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1E819E8-ACB6-8AC6-3F8D-DA202B46C98C" name="Force frappe">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-06 14:04:48 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nb citernes" id="E469F6A8-92C6-2949-1D61-F62B832925DF">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:26:01 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nb échelles" id="F9E9E78D-0D26-29DC-8B7D-F4B61E538C79">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:28:27 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nb unités interv. matière dangereuse" id="9F490D43-5D06-842D-F7A8-0506D402B775">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:28:33 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nb unités de secours" id="1D2D2D17-183B-F143-A0FE-C7A579EF3C45">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:28:39 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="nb véhicules officier" id="54261E29-5DC8-C6E7-9200-5495D8660FCB">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:28:45 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<use>0</use>
+</Attribute>
+<Attribute name="latitude_fiche" id="9DA2AD45-CD6C-A1C3-B044-55C8378D5CC9">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-31 15:21:39 UTC</createdTime>
+<generatorID>FC557F16-B931-4269-9AD6-CC5B3AEAFD0E</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<referedAttribute>D15B0F31-F2A2-0B0F-349D-F3ADBE759EF2</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="longitude_fiche" id="71CC94C8-A21B-AC7E-933D-E89327041DCB">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-31 15:22:30 UTC</createdTime>
+<generatorID>FC557F16-B931-4269-9AD6-CC5B3AEAFD0E</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<referedAttribute>47952E78-2354-44EB-A564-B291F5DC378C</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1F4B47A-0198-9688-5B5A-CB2847CD771E" name="{entity} PK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-06 14:05:04 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="682335FA-F502-3379-9E12-BB479AB55D59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DA2AD45-CD6C-A1C3-B044-55C8378D5CC9</attributeRef>
+<attributeRef>71CC94C8-A21B-AC7E-933D-E89327041DCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

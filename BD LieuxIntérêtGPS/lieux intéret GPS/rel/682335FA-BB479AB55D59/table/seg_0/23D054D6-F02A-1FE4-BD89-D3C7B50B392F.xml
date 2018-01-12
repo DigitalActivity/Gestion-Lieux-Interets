@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23D054D6-F02A-1FE4-BD89-D3C7B50B392F" name="Marqueur">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>6ACE615E-C696-7D9C-F829-F18F1DD5D601</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="latitude" id="DCD2F8AB-50D3-EDE0-BF2E-749152429F05">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>8A5D0261-70C9-D748-4357-B92CC26FCD14</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="1893F070-5B48-466D-AF84-13A522D00438">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>E9539E5D-53AD-75B0-9145-B874468AF2A4</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_lieu" id="129F7F84-0E36-F6C1-F317-024D1DED4783">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<comment>Édifice, borne fontaine, sortie de secours ou déploment de camion</comment>
+<generatorID>BD221511-D76D-7E38-369B-61A87AA933C7</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude_fiche" id="323BB661-CCC4-0F93-31E6-7A2AE4F0BB75">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>2FC79AD6-AD1D-88D4-A1A0-FB0547C6A62C</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<delegate>65910EAC-8A16-7B79-76CD-036BDB838BA8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D90909-9468-ADB4-8B97-A8B9F9AE0D2F" referredColumn="65910EAC-8A16-7B79-76CD-036BDB838BA8"/>
+</associations>
+</Column>
+<Column name="longitude_fiche" id="BEF81315-E663-2B2B-42E5-C3610BBED2DC">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>5BC203F7-7921-D988-EEE9-5348BC5D80DC</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<use>0</use>
+<delegate>B04CB569-73EE-3A2D-3C69-6D0C821B03EF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D90909-9468-ADB4-8B97-A8B9F9AE0D2F" referredColumn="B04CB569-73EE-3A2D-3C69-6D0C821B03EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12E8627B-60B2-8DCA-AA27-D39A245C71D7" name="Marqueur_PK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>A28FA715-08F8-4B77-A562-7E9A4BA651D8</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCD2F8AB-50D3-EDE0-BF2E-749152429F05"/>
+<colUsage columnID="1893F070-5B48-466D-AF84-13A522D00438"/>
+<colUsage columnID="323BB661-CCC4-0F93-31E6-7A2AE4F0BB75"/>
+<colUsage columnID="BEF81315-E663-2B2B-42E5-C3610BBED2DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22EBE600-6D9B-1A94-7CD7-9BEAA95DAC36" name="Marqueur_Fiche_renseignement_FK">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-11-03 15:32:48 UTC</createdTime>
+<generatorID>30E1849F-E296-513B-E1CB-7CF071B90FD0</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323BB661-CCC4-0F93-31E6-7A2AE4F0BB75"/>
+<colUsage columnID="BEF81315-E663-2B2B-42E5-C3610BBED2DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

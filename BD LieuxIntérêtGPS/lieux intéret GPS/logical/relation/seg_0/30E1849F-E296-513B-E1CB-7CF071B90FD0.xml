@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fiche renseignement_marqueur" directorySegmentName="seg_0" id="30E1849F-E296-513B-E1CB-7CF071B90FD0">
+<createdBy>Pierre</createdBy>
+<createdTime>2017-10-06 14:09:49 UTC</createdTime>
+<generatorID>Généré par l&apos;utilisateur</generatorID>
+<ownerDesignName>lieux intéret GPS</ownerDesignName>
+<engineerTo>
+<item key="4DE1A5DD-55FE-9B9E-90D3-181764AC9CED" value="true"/>
+</engineerTo>
+<sourcePk>ADDAA953-DC1C-97BD-9E00-8319278F1467</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>contient un</nameOnSource>
+<nameOnTarget>fait partie d&apos;une</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6B055BAB-185C-6BFF-9506-4E6FF92DD677</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6ACE615E-C696-7D9C-F829-F18F1DD5D601</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
